@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+env/
+*.egg-info/
+
+# Model weights / cache (can be huge, never commit these)
+*.bin
+*.safetensors
+*.gguf
+.cache/
+models/
+
+# Reports (generated output, not source)
+report.html
+report.json
+*.report.html
+*.report.json
+
+# OS / editor junk
+.DS_Store
+.vscode/
+.idea/
